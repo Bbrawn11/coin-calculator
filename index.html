@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exchange Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="box">
+    <h2>Exchange Rate Calculator</h2>
+
+    <select id="cat">
+      <option value="crypto">Crypto</option>
+      <option value="giftcard">Gift Card</option>
+    </select>
+
+    <select id="item"></select>
+
+    <input type="number" id="qty" value="1" min="0">
+
+    <div class="output">
+      <p>Rate: <span id="rText">₦0</span></p>
+      <h3>Payout: <span id="pText">₦0</span></h3>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
